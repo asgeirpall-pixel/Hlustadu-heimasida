@@ -1,30 +1,24 @@
-# Hlustaðu
+# hlustaðu.
 
-Einföld „Væntanlegt“ síða fyrir hlustadu.is. Engar pakkauppsetningar eða byggingarskref eru nauðsynleg.
+Forsíða fyrir hlustadu.is. Einfaldur kyrrstæður vefur með sér uppsetningu fyrir síma (760px og minna) og tölvu. Engin pakkauppsetning eða byggingarskref.
 
-## Skoða síðuna í þróun
+## Staðbundin skoðun
 
-Keyrðu `python3 -m http.server 8000` úr möppu safnsins og opnaðu síðuna í vafra á tölvunni sem keyrir þjóninn.
+Keyrðu `python3 -m http.server 8000` úr þessari möppu.
 
-## Birta á GitHub Pages
+## Birting
 
-1. Settu þessar skrár á `main` í GitHub-safninu `asgeirpall-pixel/Hlustadu-heimasida`.
-2. Opnaðu **Settings → Pages**. Undir **Build and deployment** velurðu **Deploy from a branch**, síðan `main` og `/ (root)`, og vistar.
-3. Undir **Custom domain** skráirðu `hlustadu.is`. Skráin `CNAME` geymir einnig þetta lén.
-4. Áður en DNS er tengt er mælt með að staðfesta eignarhald á léninu í **Settings → Pages** á GitHub-notandaaðganginum. GitHub gefur upp TXT-færslu fyrir staðfestinguna.
-5. Stilltu DNS hjá DNS-þjónustuaðila lénsins samkvæmt töflunni hér að neðan. ISNIC skráir lénið; ef DNS-færslur eru ekki aðgengilegar þar þarf DNS-hýsingu og að skrá nafnaþjóna hennar hjá ISNIC.
-6. Þegar GitHub hefur staðfest DNS og gefið út vottorð skaltu virkja **Enforce HTTPS** í Pages-stillingunum. DNS-breytingar geta tekið allt að sólarhring að dreifast.
+GitHub Pages birtir af `main`, úr rót geymslunnar. `CNAME` tengir hlustadu.is. Allar myndir og stílar eru hýst með síðunni.
 
-| Tegund | Nafn | Gildi |
-| --- | --- | --- |
-| A | @ | 185.199.108.153 |
-| A | @ | 185.199.109.153 |
-| A | @ | 185.199.110.153 |
-| A | @ | 185.199.111.153 |
-| CNAME | www | asgeirpall-pixel.github.io |
+## Myndir
 
-`@` táknar sjálft lénið `hlustadu.is`; sum kerfi nota autt heiti eða fullt lénið í staðinn. Varðveittu póstfærslur (MX og tengdar TXT-færslur) ef þær eru til. Fjarlægðu eldri A/AAAA-færslur fyrir sama vefheiti sem vísa á aðra hýsingu. Ekki setja algilda wildcard-færslu fyrir GitHub Pages.
+- `assets/asgeir.jpg`: ljósmynd sem Ásgeir afhenti og heimilaði fyrir síðuna. K100 merki og skjár fjarlægð; bakgrunnur gerður sléttur gráblár með imagegen.
+- `assets/studio.jpg` og `assets/location.jpg`: tímabundnar hugmyndamyndir gerðar með imagegen; skipta síðar út fyrir raunverulegar myndir af aðstöðu og búnaði.
 
-GitHub Pages er í boði fyrir opinber söfn á GitHub Free; einkasöfn þurfa áskrift sem styður Pages.
+## Samskipti
 
-Opinberar leiðbeiningar: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
+hlustadu@hlustadu.is · 659 2001. Hnappar nota mailto og tel. Engin eyðublöð, gagnasöfnun eða mælingar í þessari útgáfu.
+
+## Verð
+
+Verðbirting bíður ákvörðunar Ásgeirs. 44.900 kr. + VSK er enn tillaga, ekki samþykkt verð.
