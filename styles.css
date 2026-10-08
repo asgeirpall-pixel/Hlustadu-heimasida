@@ -12,3 +12,6 @@
 .desktop-nav{gap:22px}.desktop-nav>a{display:inline-flex;align-items:center;min-height:44px}@media(min-width:761px) and (max-width:1050px){.header{gap:16px}.desktop-nav{gap:14px;font-size:12px}.header .logo{font-size:29px}}
 
 .other{padding:48px 0}.other-link{display:flex;align-items:center;gap:40px;justify-content:space-between}.other-link>div{max-width:680px}.other h2{font-size:32px;margin-bottom:16px}.other-link .textlink{flex-shrink:0;border-bottom:1px solid var(--copper)}.other-link:hover{text-decoration:none}.other-link:hover .textlink{text-decoration:underline}.desktop-nav{gap:16px;font-size:13px}@media(max-width:760px){.other{padding:36px 0}.other-link{display:block}.other h2{font-size:29px}.other-link .textlink{margin-top:18px}}@media(min-width:761px) and (max-width:1100px){.desktop-nav{gap:10px;font-size:11px}.header .logo{font-size:29px}}
+
+/* Rekstraraðili í síðufæti */
+.footer-inner{align-items:center}.footer-company{display:flex;flex-direction:column;gap:6px;line-height:1.6}.footer-company-name{color:#263947}.footer-inner>a{padding:8px 0}@media(max-width:760px){.footer-inner{flex-direction:column;align-items:flex-start;gap:12px}.footer-company{max-width:100%}}
