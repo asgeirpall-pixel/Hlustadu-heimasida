@@ -15,3 +15,9 @@
 
 /* Rekstraraðili í síðufæti */
 .footer-inner{align-items:center}.footer-company{display:flex;flex-direction:column;gap:6px;line-height:1.6}.footer-company-name{color:#263947}.footer-inner>a{padding:8px 0}@media(max-width:760px){.footer-inner{flex-direction:column;align-items:flex-start;gap:12px}.footer-company{max-width:100%}}
+
+/* Nettur haus sem fylgir við skroll. */
+.header.wrap{position:sticky;top:0;z-index:50;width:100%;margin:0;padding:16px max(7%,calc((100% - 1120px)/2));background:var(--paper);border-bottom:1px solid #d9ddda}
+section,[id="samband"]{scroll-margin-top:100px}
+.skip{z-index:60}
+@media(max-width:760px){.header.wrap{padding:10px 20px;align-items:center;gap:16px}.header .logo{font-size:29px}.mobile-nav nav{top:calc(100% + 10px);max-height:calc(100dvh - 88px);overflow-y:auto;overscroll-behavior:contain}section,[id="samband"]{scroll-margin-top:84px}}
